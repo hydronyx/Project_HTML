@@ -1,0 +1,22 @@
+/*========== All Global declarations classess starts here ==========*/
+h1,h2,h3,h4,h5,h6,div,body,p,a,ul,li,ol,img,input,span{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {	
+	font-family: Helvetica,Arial,sans-serif;
+	background-color: #FFFFFF;
+}
+
+
+.logo {
+	float: left;
+	height: 28px;
+	width: 300px;
+	display: block;
+	background: url("../images/logo.png") 0 0 no-repeat;
+	text-indent: -10000px;
+	margin: 57px 0px 0px 0px;	
+}

@@ -1,0 +1,255 @@
+/*========== All Global declarations classess starts here ==========*/
+h1,h2,h3,h4,h5,h6,div,body,p,a,ul,li,ol,img,input,span{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: 'titilliumregular';
+	src: url('../fonts/titillium/titillium-regular-webfont.eot');
+	src: url('../fonts/titillium/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/titillium/titillium-regular-webfont.woff') format('woff'),
+	url('../fonts/titillium/titillium-regular-webfont.ttf') format('truetype'),
+	url('../fonts/titillium/titillium-regular-webfont.svg#titilliumregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'titilliumbold';
+	src: url('../fonts/titillium/titillium-semibold-webfont.eot');
+	src: url('../fonts/titillium/titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/titillium/titillium-semibold-webfont.woff') format('woff'),
+	url('../fonts/titillium/titillium-semibold-webfont.ttf') format('truetype'),
+	url('../fonts/titillium/titillium-semibold-webfont.svg#titilliumbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+body{
+	font-family: 'Source Sans Pro',sans-serif,arial;
+}
+
+/*========== All Header declarations classess starts here ==========*/
+
+.headerWrapper{
+	padding-top: 20px;
+	margin-bottom: 19px;
+}
+
+.logo {
+	float: left;
+	height: 29px;
+	width:121px;
+	display: block;
+	background: url("../images/logo.png") no-repeat;
+	text-indent: -10000px;
+	margin:  0px 17px 0px 0px;	
+}
+
+.blogWrapper{
+	float :left;	
+	background: url("../images/seperator.png") no-repeat left;
+}
+
+.blogIcon{
+	background: url("../images/blog.png") no-repeat left;
+	height: 10px;
+	width: 7px;
+	display: block;
+	float: left;
+	margin-top: 12px;
+	margin-right: 5px;
+
+}
+
+a.blog {
+	float: left;
+	padding-left: 18px;
+	font-family: "titilliumregular";
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	line-height: 34px;	
+}
+
+.headerRight{
+	float: right;
+	margin:  9px 0px 0px 0px;
+}
+
+.headerRight h6{
+	font-family: "titilliumregular";
+	font-size: 10px;
+	color: #BBBBBB;
+	float: left;
+	line-height: 16px;
+	margin-right: 5px;
+}
+
+a.weboniseLogo {
+	float: right;
+	height: 16px;
+	width:107px;
+	display: block;
+	background: url("../images/webonise_lab_logo.png") no-repeat;
+	text-indent: -10000px;
+}
+
+/*========== All Page Titles classess starts here ==========*/
+
+.itWorks{
+	/*font-family: SourceSansPro;*/
+	font-size: 60px;
+	color: #66BB00;
+	line-height: 60px;
+	text-align: center;
+	margin-bottom: 21px;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+.liveAppText{
+	/*font-family: SourceSansPro;*/
+	font-family: "titilliumbold";
+	font-size: 22px;
+	color: #111111;
+	text-align: center;
+	line-height: 24px;
+	margin-bottom: 39px;
+}
+
+/*========== All ContentWrapper classess starts here ==========*/
+
+.contentWrapperLeft h3 {
+	/*font-family: SourceSansPro;*/
+	font-size: 22px;
+	color: #111111;
+	text-align: right;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.contentWrapperLeft p {
+	/*font-family: SourceSansPro;*/
+	font-size: 13px;
+	color: #888888;
+	text-align: right;
+	margin-bottom: 4px;
+}
+
+a.gotQuestions {
+	display: block;
+	text-align: right;
+	font-family: "titilliumbold";
+	font-size: 13px;
+	color: #66BB00;
+	text-decoration: none;
+}
+
+.contentWrapperRight{
+	padding-left: 15px;
+}
+
+.contentWrapperRight h3{
+	/*font-family: SourceSansPro;*/
+	font-size: 22px;
+	color: #111111;
+	line-height: 24px;
+	margin-bottom: 14px;
+}
+
+.contentWrapperRight p {
+	/*font-family: SourceSansPro;*/
+	width: 160px;
+	font-size: 13px;
+	color: #888888;
+	margin-bottom: 4px;
+}
+
+a.getInTouch{
+	display: block;
+	width:88px;
+	font-family: "titilliumbold";
+	font-size: 13px;
+	line-height: 24px;
+	color: #66BB00;
+	padding-left: -4px;
+	text-decoration: none;
+	background: url("../images/mail.png") no-repeat right;
+}
+
+.firstFold{
+	margin-bottom: 27px;
+}
+
+.secondFold{
+	margin-bottom: 22px;
+}
+
+.currentlySupporting{
+	font-size: 12px;
+	color: #AAAAAA;
+	text-align: center;
+	padding-left: 41px;
+}
+
+.currentlySupportingText{
+	margin-right: 13px;
+	line-height: 26px;
+	float: left;
+}
+
+.ror{
+	float: left;
+	background: url("../images/technology_sprite.png");
+	height: 24px;
+	width: 27px;
+	display: block;
+	background-position: -3px 0px;
+}
+
+.ios{
+	float: left;
+	background: url("../images/technology_sprite.png");
+	height: 24px;
+	width: 27px;
+	display: block;
+	background-position: -34px 0px;
+}
+
+.android{
+	float: left;
+	background: url("../images/technology_sprite.png");
+	height: 24px;
+	width: 27px;
+	display: block;
+	background-position: -64px 0px;
+}
+
+.cake{
+	float: left;
+	background: url("../images/technology_sprite.png");
+	height: 24px;
+	width: 27px;
+	display: block;
+	background-position: -93px 0px;
+}
+
+
+
+a.viewPresentation{
+	font-family: "Myriad Pro";
+	text-decoration: none;
+	color:#66bb00;
+	font-size: 12px;	
+}
+
+.developer{
+	margin-top: -12px;
+	position: relative;
+	left: 15px;
+	z-index: -1000;
+}
